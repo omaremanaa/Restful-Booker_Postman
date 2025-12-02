@@ -8,14 +8,14 @@ This repository contains automated API tests built using **Postman Collections**
 
 ### *Run Collection with Environment**
 ```
-newman run postman/collection.postman_collection.json \
-    -e postman/environment.postman_environment.json
+newman run Restful_GP_env.postman_environment.json \
+    -e Restful-Booker-GP.postman_collection.json
 ```
 
 ### **Run Newman with Allure**
 ```
-newman run postman/collection.postman_collection.json \
-    -e postman/environment.postman_environment.json \
+newman run Restful_GP_env.postman_environment.json \
+    -e Restful-Booker-GP.postman_collection.json \
     -r allure
 ```
 
